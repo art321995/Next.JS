@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  redirect("/dashboard/counter"); // Redirige inmediatamente en el servidor
+  redirect("/dashboard/main"); // Redirige inmediatamente en el servidor
 }
